@@ -1,0 +1,43 @@
+﻿# API Keys and Secrets
+.env
+*.key
+secrets.json
+
+# Wine Catalog PDFs (often proprietary)
+*.pdf
+!sample_catalog.pdf
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+*.egg-info/
+dist/
+build/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Colab
+*.ipynb_backup
+
+# Vector Store IDs and session data
+vector_store_id.txt
+session_data.json

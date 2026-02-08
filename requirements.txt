@@ -1,0 +1,10 @@
+﻿# AI Sommelier - Python Dependencies
+
+# Core OpenAI SDK with Assistants API v2 support
+openai>=1.0.0
+
+# Environment variable management (optional for local development)
+python-dotenv>=1.0.0
+
+# Note: Google Colab already includes these dependencies
+# No additional installations needed when running in Colab
